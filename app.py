@@ -6,7 +6,8 @@ app = Flask(__name__)
 @app.route('/')
 def hello():
     return jsonify({
-        "message": "Hello, Docker World!",
+       # "message": "Hello, Docker World!",
+        "message": "Changed message that will break test!",  # Changed from "Hello, Docker World!"
         "hostname": socket.gethostname()
     })
 
