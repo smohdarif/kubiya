@@ -1,5 +1,5 @@
 name: CI/CD Pipeline
-#Testing the push now
+#Testing the push now for testing
 on:
   push:
     branches: [ main ]
