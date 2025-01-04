@@ -51,6 +51,8 @@ source venv/bin/activate  # For Unix/macOS
 3. Install dependencies:
 ```bash
 pip install -r requirements.txt
+OR
+python3 -m pip install -r requirements.txt
 ```
 
 4. Run the application:
