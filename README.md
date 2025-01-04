@@ -53,11 +53,13 @@ source venv/bin/activate  # For Unix/macOS
 pip install -r requirements.txt
 OR
 python3 -m pip install -r requirements.txt
+python3 -m pip install pytest
+
 ```
 
 4. Run the application:
 ```bash
-python app.py
+python3 app.py
 ```
 
 The application will be available at `http://localhost:5000`
@@ -66,7 +68,7 @@ The application will be available at `http://localhost:5000`
 
 Execute the test suite using pytest:
 ```bash
-python -m pytest test_app.py -v
+python3 -m pytest test_app.py -v
 ```
 
 Expected output for successful tests:
